@@ -15,7 +15,7 @@ const useFetchRestaurants =(resId)=> {
     }
     fetchRestaurants();
   }, []);
-    return resInfo;
+    return resInfo?.data;
 }
 
 export default useFetchRestaurants;

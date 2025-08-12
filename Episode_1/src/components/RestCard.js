@@ -6,7 +6,7 @@ const RestCard = (props) => {
     <div className="m-3 p-3 w-64 h-120 bg-gray-100 hover:bg-gray-200 shadow-black align-middle overflow-hidden rounded-xl">
       <img
         className="w-56 rounded-lg"
-        src={ url + '/' + resData?.info?.cloudinaryImageId}
+        src={ url + resData?.info?.cloudinaryImageId}
         alt="Restaurant"
       />
       <h2 className="text-red-500 font-bold">{name}</h2>

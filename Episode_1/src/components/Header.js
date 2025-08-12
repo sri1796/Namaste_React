@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="flex items-center">
         <ul className="flex gap-7">
-          <li>Online: {onlineStatus ? 'Active': 'Inactive'}</li>
+          <li>Online: {onlineStatus ? 'Active 😝': 'Inactive 🥵'}</li>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/about'>About</Link></li>
           <li><Link to='/contact'>Contact</Link></li>
